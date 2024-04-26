@@ -3,27 +3,28 @@ header{
     top:0;
     width: 100%;
     z-index: 1000;
+    
 }
 
 .header1{
     background-color:#4aacd1 ;
     display: flex;
     padding: 8px 15px;
-    height: 35px;
+    height: 20px;
     align-items: center;
 }
 
 .a1{
     color: white;
     position:absolute;
-    right: 30px;
+    right: 20px;
     display: flex;
 }
 
 .a2{
     color: white;
     position: absolute;
-    left: 30px;
+    left: 20px;
     display: flex;
     font-weight: bold;
 }
@@ -31,6 +32,8 @@ header{
 .header2{
     display: flex;
     align-items: center;
+    background-color: white;
+    height: 90px;
 }
 
 .c1{
@@ -54,3 +57,76 @@ header{
 .d1{
     font-weight: bold;
 }
+
+main{
+    padding: 30px;
+}
+
+.bloque1{
+    display: flex; 
+    padding: 15px 0px; 
+}
+
+.img1{
+    height: 478px;
+    width: 638px;
+}
+
+.text1{
+    color: white;
+    background-color: #328396;
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.h2b1{
+    font-weight: bold;
+}
+
+.boton1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #efd622;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bloque2{
+    display: flex;
+    padding: 15px 0px; 
+}
+
+.text2{
+    color: white;
+    background-color: #5bae94;
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.img2{
+    height: 410px;
+    width: 638px;
+}
+
+.h2b2{
+    font-weight: bold;
+}
+
+.boton2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c74428;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
