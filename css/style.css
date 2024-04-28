@@ -3,7 +3,7 @@ header{
     top:0;
     width: 100%;
     z-index: 1000;
-    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.479);
 }
 
 .header1{
@@ -12,6 +12,10 @@ header{
     padding: 8px 15px;
     height: 20px;
     align-items: center;
+}
+
+.cerrado{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .a1{
@@ -56,6 +60,7 @@ header{
 
 .d1{
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
@@ -78,7 +83,12 @@ main{
     width: 680px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.forma1{
+    font-size: 18px;
 }
 
 .h2b1{
@@ -94,6 +104,7 @@ main{
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bloque2{
@@ -108,6 +119,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;  
+    font-size: 20px;
 }
 
 .img2{
@@ -117,6 +129,7 @@ main{
 
 .h2b2{
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .boton2{
@@ -126,8 +139,15 @@ main{
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.forma2{
+    width:385px ;
+    height: 250px;
+    justify-content: center;
+    align-items: center;  
 }
 
 .cajas{
@@ -148,6 +168,8 @@ main{
     background-color: #1188c2;
     color: white;
     text-align: center;
+    font-size: 18px;
+    height: 85px;
 }
 
 
@@ -166,6 +188,8 @@ main{
     background-color: #e8c425;
     color: white;
     text-align: center;
+    font-size: 18px;
+    height: 85px;
 }
 
 .caja3{
@@ -179,33 +203,47 @@ main{
 }
 
 .textocaja3{
-    background-color: #f59500;
+    background-color: rgb(245, 149, 0);
     color: white;
     text-align: center;
+    font-size: 18px;
+    height: 85px;
 }
 
 .bloque3{
-    display: flex;
-    padding: 200px 0px; 
+    display: flex; 
+    padding: 15px 0px; 
 }
 
 .img6{
     height: 410px;
-    width: 660px;
+    width: 680px;
 }
 
 .textoblock3{
-    background-color: #f5bc25;
     color: white;
-    height:410px ;
-    width: 638px;
-    text-align: center;
+    background-color: #f5bc25;
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
-.img6{
-    height: 410px;
-    width: 638px;
+.forma4{
+    height: 290px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;   
+    font-size: 18px;
 }
+
+.h2block3{
+    font-weight: bold;
+    font-size: 21px;
+}
+
 
 .boton3{
     margin-bottom: 10px;
@@ -215,6 +253,100 @@ main{
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
+    height: auto;
+
+}
+
+.bloque4{
+    display: flex; 
+    padding: 15px 0px; 
+}
+
+.img7{
+    height: 410px;
+    width: 680px;
+}
+
+.textoblock4{
+    color: white;
+    background-color: #e90101;
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.h2block4{
     font-weight: bold;
 }
+
+.boton4{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fecd07;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    height: auto;
+
+}
+
+.forma5{
+    width: 400px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;  
+}
+
+footer{
+    display: flex;
+    background-color: rgb(232, 236, 239);
+    
+}
+
+.cuerpo1{
+    width: 230px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 45px;
+}
+
+.cuerpo2{
+    width: 230px;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cuerpo3{
+    width: 230px;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+}
+
+.cuerpo4{
+    width: 275px;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
