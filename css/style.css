@@ -186,10 +186,12 @@ main{
 
 .bloque3{
     display: flex;
-    padding: 10px 0px; 
-    height: 300px;
-    justify-content: center;
-    align-items:start;
+    padding: 200px 0px; 
+}
+
+.img6{
+    height: 410px;
+    width: 660px;
 }
 
 .textoblock3{
